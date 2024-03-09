@@ -1,0 +1,413 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    }
+
+* {
+    box-sizing: border-box;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+/* <!-- heder --> */
+
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+    justify-content: space-between;
+    align-items: baseline;
+    text-decoration: none;
+    height: 72px;
+    border-bottom: 1px solid #E7E9FC;
+    
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.partlogo-studio{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+.partlogo-studio:hover{
+    color: #404bbf;
+}
+.partlogo-studio:focus{
+    color: #404bbf;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+}
+
+.nav-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+padding: 24px 0;
+display: block;
+}
+
+.nav-link:hover {
+    color: #404bbf;
+}
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.address{
+    font-style: normal;
+    margin-left: auto;
+    display: flex;
+    
+}
+
+
+.address-link:hover,
+.address-link:focus{
+color: #404bbf;
+}
+
+.menu-address {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.address-link {
+    color: #434455;
+    text-decoration: none;
+}
+
+
+/* <!-- Sektion-1 --> */
+
+
+
+.hero-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    max-width: 496px;
+    margin-bottom: 48px;
+}
+
+
+
+.section-hero {
+    display: flex;
+    background: #2e2f42;
+    box-sizing: content-box;
+    padding: 188px 0;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #2e2f42;
+    color: #fff;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+
+
+
+/* <!-- Sektion-2 --> */
+
+.section-benefits{
+    padding: 120px 0
+}
+
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.benefits-menu {
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-item{
+    width: calc((100% - 72px) / 4);
+}
+
+.section-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.benefits-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+margin-bottom: 8px;
+}
+
+
+.benefits-list-tekst{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+/* <!-- Sektion-3--> */
+
+.section-team {
+    display: flex;
+    max-width: 100%;
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+
+.section-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.sections-list-title{
+    text-align: center;
+margin-bottom: 8px;
+}
+
+.sections-list-text{
+    text-align: center;
+
+}
+
+.team-content{
+   padding: 32px 0;
+}
+
+.team-list-item{
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    
+}
+
+
+
+.team-list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 24px;
+}
+
+
+
+
+/* <!-- Sektion-4--> */
+
+.portfolio {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.portfolio-content{
+    border: 1px solid #e7e9fc;
+    border-top: none;
+        padding: 32px 16px;
+
+}
+
+.section-portfolio-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
+.sections-list-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px
+}
+
+.sections-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+
+
+
+
+
+.footer {
+
+    background: #2e2f42;
+    max-width: 100%;
+    height: 312px;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.partlogo-studio-footer {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+
+.footer-content {
+    max-width: 264px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
