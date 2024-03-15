@@ -183,12 +183,11 @@ color: #404bbf;
     padding: 188px 0;
     background: #2e2f42;
     max-width: 1440px;
-    
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+            rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .button {
@@ -552,11 +551,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .social-media-footer{
     display: flex;
     gap: 16px;
-        align-items: center;
-            justify-content: center;
-            flex-direction: row;
-            width: 232px;
-            height: 40px;
+    align-items: center;
 }
 
 .footer-icon{
